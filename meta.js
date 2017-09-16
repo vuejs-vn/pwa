@@ -49,6 +49,10 @@ module.exports = {
       "type": "confirm",
       "message": "Install style boilerplate?"
     },
+    "webFontLoader": {
+      "type": "confirm",
+      "message": "Install Web Font Loader?"
+    },
     "vuex": {
       "type": "confirm",
       "message": "Install vuex?"
