@@ -1,0 +1,34 @@
+// Color
+
+$color--primary: #076839;
+$color--secondary: #faa619;
+$color--secondary--dark: darken(#faa619, 10);
+$cool--green: #04673a;
+$color--body: #6e6e6e;
+$color--gray: #90949C;
+$color--background-body: #076839;
+//Structure
+$column-count: 12;
+$gutter-width: 20px;
+
+$grid-gutter-widths: (
+  xs: $gutter-width,
+  sm: $gutter-width,
+  md: $gutter-width,
+  lg: $gutter-width,
+  xl: $gutter-width,
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+$container-max-width: 1030px;
+
+// Typo
+$font-primary: 'Roboto', sans-serif;
+$font-header: $font-primary;

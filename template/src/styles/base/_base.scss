@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+  -webkit-text-size-adjust:none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: opacity 0.2s ease;
+}
+
+*::selection {
+  background: rgba(0, 0, 0, .1);
+}
+
+body {
+  min-height: 100vh;
+}
