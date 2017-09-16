@@ -10,7 +10,7 @@ To use this template, scaffold a project with [vue-cli](https://github.com/vuejs
 
 ``` bash
 $ npm install -g vue-cli
-$ vue init pwa my-project
+$ vue init vuejs-vn/pwa-template my-project
 $ cd my-project
 $ npm install
 $ npm run dev

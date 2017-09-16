@@ -14,7 +14,7 @@ This is a project template for [vue-cli](https://github.com/vuejs/vue-cli). **It
 
 ``` bash
 $ npm install -g vue-cli
-$ vue init pwa my-project
+$ vue init vuejs-vn/pwa-template my-project
 $ cd my-project
 $ npm install
 $ npm run dev
