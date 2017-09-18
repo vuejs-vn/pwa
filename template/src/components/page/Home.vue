@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="home">
     <h1>\{{ msg }}</h1>
     <h2>Essential Links</h2>
     <ul>
@@ -21,7 +21,7 @@
 
 <script>
   export default {
-    name: 'hello',
+    name: 'home',
     data{{#unless_eq lintConfig "airbnb"}} {{/unless_eq}}() {
       return {
         msg: 'Welcome to Your Vue.js PWA'{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
